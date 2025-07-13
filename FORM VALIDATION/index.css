@@ -1,0 +1,28 @@
+body {
+  background-image: linear-gradient(to right, orange, yellow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+.button {
+  background-color: blue;
+  color: white;
+}
+.form {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 30px 5px rgb(34, 34, 34);
+  padding: 30px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.form:hover {
+  transform: scale(1.2);
+}
+
+.error {
+  color: red;
+}
