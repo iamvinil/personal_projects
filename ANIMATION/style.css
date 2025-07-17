@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f0f8ff;
+}
+
+.container {
+  position: relative;
+  width: 200px;
+  height: 300px;
+  border: 2px solid #333;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.ball {
+  width: 50px;
+  height: 50px;
+  background-color: #ff4500;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 75px;
+
+  animation: bounce 2s infinite ease-in-out;
+}
+
+@keyframes bounce {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: 250px;
+  }
+  100% {
+    top: 0;
+  }
+}
